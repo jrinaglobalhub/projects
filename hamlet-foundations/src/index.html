@@ -1,0 +1,499 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Hamlet Foundation | Empowering Lives in Peringamala</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&family=Outfit:wght@300;500;700&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+    <link rel="icon" type="image/png" href="assets/logo-transparent.png">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+</head>
+
+<body>
+
+    <header class="header">
+        <div class="container header-content">
+            <a href="#" class="logo">
+                <img src="assets/logo-transparent.png" alt="Hamlet Foundation Logo" class="logo-img">
+                <span class="logo-text">Hamlet<span class="logo-accent">Foundation</span></span>
+            </a>
+            <nav class="nav">
+                <ul class="nav-list">
+                    <li><a href="#about" class="nav-link" data-i18n="nav_about">About Us</a></li>
+                    <li><a href="#pillars" class="nav-link" data-i18n="nav_pillars">Our Pillars</a></li>
+                    <li><a href="#impact" class="nav-link" data-i18n="nav_impact">Impact</a></li>
+                    <li><a href="#gallery" class="nav-link" data-i18n="nav_gallery">Gallery</a></li>
+                    <li><a href="#contact" class="nav-link" data-i18n="nav_contact">Contact</a></li>
+                </ul>
+                <div class="mobile-actions">
+                    <button class="btn btn-outline btn-sm lang-btn" id="langToggleMobile"
+                        data-i18n="lang_toggle">മലയാളം</button>
+                    <a href="#get-involved" class="btn btn-primary btn-sm" data-i18n="nav_donate">Donate Now</a>
+                </div>
+            </nav>
+            <div class="header-actions">
+                <button class="btn btn-outline btn-sm lang-btn desktop-only" id="langToggle"
+                    data-i18n="lang_toggle">മലയാളം</button>
+                <a href="#get-involved" class="btn btn-primary" data-i18n="nav_donate">Donate Now</a>
+                <button class="mobile-menu-btn" aria-label="Toggle menu">
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                </button>
+            </div>
+        </div>
+    </header>
+
+    <main>
+        <!-- Hero Section -->
+        <section class="hero" id="home">
+            <div class="container hero-content">
+                <div class="hero-text fade-in-up">
+                    <p class="hero-eyebrow" data-i18n="hero_badge">— Peringamala's Change-Makers</p>
+                    <h1 class="hero-title" data-i18n="hero_title">Empowering Lives,<br><em>Building Futures.</em></h1>
+                    <p class="hero-subtitle" data-i18n="hero_subtitle">Based in Peringamala, we run grassroots
+                        initiatives focusing on education, health, and community empowerment to create sustainable change.</p>
+                    <div class="hero-buttons">
+                        <a href="#get-involved" class="btn btn-primary btn-lg" data-i18n="hero_btn_donate">Donate Now</a>
+                        <a href="#about" class="btn btn-outline btn-lg" data-i18n="hero_btn_mission">Our Mission</a>
+                    </div>
+                </div>
+                <div class="hero-image fade-in-up delay-1">
+                    <div class="image-wrapper">
+                        <!-- Hero Image from User -->
+                        <img src="assets/hero-bg.png" alt="Community Empowerment in Peringamala" class="hero-img-main" />
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- About Section -->
+        <section class="about section" id="about">
+            <div class="container">
+                <div class="section-header text-center fade-in-up">
+                    <h2 class="section-title" data-i18n="about_title">The Grassroots Impact Story</h2>
+                    <p class="section-desc" data-i18n="about_desc">Born from a vision of compassion and integrity, the
+                        Hamlet Foundation
+                        operates directly where help is needed most.</p>
+                </div>
+
+                <div class="about-grid">
+                    <div class="about-card fade-in-up delay-1">
+                        <div class="icon-box">🎯</div>
+                        <h3 data-i18n="about_mission_title">Our Mission</h3>
+                        <p data-i18n="about_mission_text">To uplift marginalized communities through direct
+                            interventions in education, health, and
+                            sustainable livelihoods, fostering self-reliance and dignity.</p>
+                    </div>
+                    <div class="about-card fade-in-up delay-2">
+                        <div class="icon-box">👁️</div>
+                        <h3 data-i18n="about_vision_title">Our Vision</h3>
+                        <p data-i18n="about_vision_text">A society where every individual has access to fundamental
+                            rights, quality education, and the
+                            opportunity to thrive unhindered by socioeconomic constraints.</p>
+                    </div>
+                    <div class="about-card fade-in-up delay-3">
+                        <div class="icon-box">🤝</div>
+                        <h3 data-i18n="about_values_title">Core Values</h3>
+                        <p data-i18n="about_values_text">Compassion, Integrity, Respect, and Sustainable Change. These
+                            principles guide every project
+                            we undertake in Peringamala and beyond.</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Pillars Section -->
+        <section class="pillars section bg-light" id="pillars">
+            <div class="container">
+                <div class="section-header fade-in-up" style="text-align: center; max-width: 800px; margin-left: auto; margin-right: auto;">
+                    <h2 class="section-title" data-i18n="pillars_title">Our Service Pillars</h2>
+                    <p class="section-desc" data-i18n="pillars_desc">Comprehensive support structures designed to create holistic development in our community.</p>
+                </div>
+
+                <div class="service-accordion fade-in-up delay-1">
+                    <!-- Pillar 1 -->
+                    <div class="accordion-item" style="background-image: url('assets/edu-support.png');">
+                        <div class="accordion-overlay"></div>
+                        <div class="accordion-title-vertical" data-i18n="pillar_1_tag">Education</div>
+                        <div class="accordion-content">
+                            <span class="accordion-tag" data-i18n="pillar_1_tag">Education</span>
+                            <h3 data-i18n="pillar_1_title">Education Support</h3>
+                            <p data-i18n="pillar_1_text">Providing scholarships, essential learning materials, and mentorship to ensure financial constraints never hinder a child's academic journey.</p>
+                        </div>
+                    </div>
+                    <!-- Pillar 2 -->
+                    <div class="accordion-item" style="background-image: url('assets/health.jpg');">
+                        <div class="accordion-overlay"></div>
+                        <div class="accordion-title-vertical" data-i18n="pillar_2_tag">Healthcare</div>
+                        <div class="accordion-content">
+                            <span class="accordion-tag" data-i18n="pillar_2_tag">Healthcare</span>
+                            <h3 data-i18n="pillar_2_title">Health & Wellness</h3>
+                            <p data-i18n="pillar_2_text">Organizing accessible medical camps, mental health counseling, and nutritional support for vulnerable community members.</p>
+                        </div>
+                    </div>
+                    <!-- Pillar 3 -->
+                    <div class="accordion-item" style="background-image: url('assets/livelihoods.png');">
+                        <div class="accordion-overlay"></div>
+                        <div class="accordion-title-vertical" data-i18n="pillar_3_tag">Livelihood</div>
+                        <div class="accordion-content">
+                            <span class="accordion-tag" data-i18n="pillar_3_tag">Livelihood</span>
+                            <h3 data-i18n="pillar_3_title">Community Empowerment</h3>
+                            <p data-i18n="pillar_3_text">Fostering self-sufficiency through vocational training programs, skill development, and support for micro-enterprises.</p>
+                        </div>
+                    </div>
+                    <!-- Pillar 4 -->
+                    <div class="accordion-item" style="background-image: url('assets/emergency-support.png');">
+                        <div class="accordion-overlay"></div>
+                        <div class="accordion-title-vertical" data-i18n="pillar_4_tag">Relief</div>
+                        <div class="accordion-content">
+                            <span class="accordion-tag" data-i18n="pillar_4_tag">Relief</span>
+                            <h3 data-i18n="pillar_4_title">Emergency Relief</h3>
+                            <p data-i18n="pillar_4_text">Rapid deployment of resources and on-ground crisis response during natural disasters or community emergencies.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Impact Counter Section -->
+        <section class="impact section" id="impact">
+            <div class="container">
+                <div class="impact-container fade-in-up">
+                    <div class="impact-text">
+                        <h2 data-i18n="impact_title">Measurable Change. <br>Real Lives.</h2>
+                        <p data-i18n="impact_desc">Our commitment translates into tangible results across the
+                            communities we serve.</p>
+                    </div>
+                    <div class="impact-stats">
+                        <div class="stat-item">
+                            <div class="stat-number" data-target="5400">0</div>
+                            <div class="stat-label" data-i18n="impact_1">Lives Impacted</div>
+                        </div>
+                        <div class="stat-item">
+                            <div class="stat-number" data-target="1250">0</div>
+                            <div class="stat-label" data-i18n="impact_2">Students Supported</div>
+                        </div>
+                        <div class="stat-item">
+                            <div class="stat-number" data-target="85">0</div>
+                            <div class="stat-label" data-i18n="impact_3">Medical Camps Held</div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Get Involved -->
+        <section class="get-involved section" id="get-involved">
+            <div class="container">
+                <div class="section-header text-center fade-in-up">
+                    <h2 class="section-title" data-i18n="involved_title">Join the Movement</h2>
+                    <p class="section-desc" data-i18n="involved_desc">Whether you give your time or your resources, your
+                        contribution creates
+                        ripples of positive change.</p>
+                </div>
+
+                <div class="action-cards">
+                    <div class="action-card donate-card fade-in-up">
+                        <div class="action-icon">💝</div>
+                        <h3 data-i18n="donate_title">Make a Donation</h3>
+                        <p data-i18n="donate_text">Your financial support directly funds our educational, medical, and
+                            community empowerment
+                            programs.</p>
+                        <a href="#contact" class="btn btn-primary w-100" data-i18n="donate_btn">Donate Now</a>
+                    </div>
+                    <div class="action-card volunteer-card fade-in-up delay-1">
+                        <div class="action-icon">🙌</div>
+                        <h3 data-i18n="volunteer_title">Become a Volunteer</h3>
+                        <p data-i18n="volunteer_text">Join our on-ground team in Peringamala. Share your skills and be
+                            part of the grassroots
+                            action.</p>
+                        <a href="#contact" class="btn btn-outline w-100" data-i18n="volunteer_btn">Sign Up to
+                            Volunteer</a>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Gallery Section -->
+        <section class="gallery section" id="gallery">
+            <div class="container">
+                <div class="section-header text-center fade-in-up">
+                    <h2 class="section-title" data-i18n="gallery_title">Moments of Impact</h2>
+                    <p class="section-desc" data-i18n="gallery_desc">Glimpses into our on-ground activities and the
+                        communities we serve in Peringamala.</p>
+                </div>
+
+                <div class="gallery-grid" id="galleryGrid">
+                    <div class="gallery-item fade-in-up">
+                        <img src="assets/gallery-images/gallery-1.jpg" alt="Hamlet Foundation Activity"
+                            class="gallery-img" loading="lazy">
+                        <div class="gallery-overlay">
+                            <span class="gallery-icon">⤢</span>
+                        </div>
+                    </div>
+                    <div class="gallery-item fade-in-up">
+                        <img src="assets/gallery-images/gallery-2.jpg" alt="Hamlet Foundation Activity"
+                            class="gallery-img" loading="lazy">
+                        <div class="gallery-overlay">
+                            <span class="gallery-icon">⤢</span>
+                        </div>
+                    </div>
+                    <div class="gallery-item fade-in-up">
+                        <img src="assets/gallery-images/gallery-3.png" alt="Hamlet Foundation Activity"
+                            class="gallery-img" loading="lazy">
+                        <div class="gallery-overlay">
+                            <span class="gallery-icon">⤢</span>
+                        </div>
+                    </div>
+                    <div class="gallery-item fade-in-up">
+                        <img src="assets/gallery-images/gallery-4.jpg" alt="Hamlet Foundation Activity"
+                            class="gallery-img" loading="lazy">
+                        <div class="gallery-overlay">
+                            <span class="gallery-icon">⤢</span>
+                        </div>
+                    </div>
+                    <div class="gallery-item fade-in-up">
+                        <img src="assets/gallery-images/gallery-4.png" alt="Hamlet Foundation Activity"
+                            class="gallery-img" loading="lazy">
+                        <div class="gallery-overlay">
+                            <span class="gallery-icon">⤢</span>
+                        </div>
+                    </div>
+                    <div class="gallery-item fade-in-up">
+                        <img src="assets/gallery-images/gallery-5.png" alt="Hamlet Foundation Activity"
+                            class="gallery-img" loading="lazy">
+                        <div class="gallery-overlay">
+                            <span class="gallery-icon">⤢</span>
+                        </div>
+                    </div>
+                    <div class="gallery-item fade-in-up">
+                        <img src="assets/gallery-images/gallery-6.png" alt="Hamlet Foundation Activity"
+                            class="gallery-img" loading="lazy">
+                        <div class="gallery-overlay">
+                            <span class="gallery-icon">⤢</span>
+                        </div>
+                    </div>
+                    <div class="gallery-item fade-in-up">
+                        <img src="assets/gallery-images/gallery-8.png" alt="Hamlet Foundation Activity"
+                            class="gallery-img" loading="lazy">
+                        <div class="gallery-overlay">
+                            <span class="gallery-icon">⤢</span>
+                        </div>
+                    </div>
+                    <div class="gallery-item fade-in-up">
+                        <img src="assets/gallery-images/gallery-9.png" alt="Hamlet Foundation Activity"
+                            class="gallery-img" loading="lazy">
+                        <div class="gallery-overlay">
+                            <span class="gallery-icon">⤢</span>
+                        </div>
+                    </div>
+                    <div class="gallery-item fade-in-up">
+                        <img src="assets/gallery-images/gallery.png" alt="Hamlet Foundation Activity"
+                            class="gallery-img" loading="lazy">
+                        <div class="gallery-overlay">
+                            <span class="gallery-icon">⤢</span>
+                        </div>
+                    </div>
+                    <div class="gallery-item fade-in-up">
+                        <img src="assets/gallery-images/gallery1.png" alt="Hamlet Foundation Activity"
+                            class="gallery-img" loading="lazy">
+                        <div class="gallery-overlay">
+                            <span class="gallery-icon">⤢</span>
+                        </div>
+                    </div>
+                    <div class="gallery-item fade-in-up">
+                        <img src="assets/gallery-images/gallery2.png" alt="Hamlet Foundation Activity"
+                            class="gallery-img" loading="lazy">
+                        <div class="gallery-overlay">
+                            <span class="gallery-icon">⤢</span>
+                        </div>
+                    </div>
+                    <div class="gallery-item fade-in-up">
+                        <img src="assets/gallery-images/galley-7.png" alt="Hamlet Foundation Activity"
+                            class="gallery-img" loading="lazy">
+                        <div class="gallery-overlay">
+                            <span class="gallery-icon">⤢</span>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="text-center mt-4">
+                    <button class="btn btn-outline" id="loadMoreBtn" data-i18n="gallery_load_more">Load More
+                        Stories</button>
+                </div>
+            </div>
+        </section>
+
+        <!-- Estimator Section -->
+        <section class="estimator section" id="estimator">
+            <div class="container fade-in-up">
+                <div class="section-header" style="text-align: center; max-width: 800px; margin-left: auto; margin-right: auto;">
+                    <h2 class="section-title">Sponsorship Estimator</h2>
+                    <p class="section-desc">Calculate the estimated cost to sponsor our initiatives. Prices are updated dynamically by our team.</p>
+                </div>
+                
+                <div class="estimator-wrapper">
+                    <div class="estimator-card">
+                        <div class="form-group">
+                            <label for="est-type">Initiative Type</label>
+                            <select id="est-type">
+                                <option value="education">Education Support</option>
+                                <option value="health">Healthcare Camp</option>
+                                <option value="livelihood">Livelihood Training</option>
+                            </select>
+                        </div>
+                        <div class="form-group">
+                            <label for="est-count">Number of Beneficiaries</label>
+                            <input type="number" id="est-count" value="10" min="1">
+                        </div>
+                        <div class="estimator-result">
+                            <h3>Estimated Cost: <span id="est-total">₹0</span></h3>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Contact Section -->
+        <section class="contact section bg-light" id="contact">
+            <div class="container">
+                <div class="contact-grid">
+                    <div class="contact-info fade-in-up">
+                        <h2 class="section-title" data-i18n="contact_title">Get in Touch</h2>
+                        <p class="section-desc" data-i18n="contact_desc">Have a question or want to collaborate? Connect
+                            with our headquarters in
+                            Peringamala.</p>
+
+                        <div class="contact-details">
+                            <a href="mailto:thehamletngo@gmail.com" class="contact-item">
+                                <div class="c-icon">✉️</div>
+                                <div>
+                                    <strong data-i18n="contact_email">Email Us</strong>
+                                    <span>thehamletngo@gmail.com</span>
+                                </div>
+                            </a>
+                            <a href="tel:7293645267" class="contact-item">
+                                <div class="c-icon">📞</div>
+                                <div>
+                                    <strong data-i18n="contact_call">Call Us</strong>
+                                    <span>+91 72936 45267</span>
+                                </div>
+                            </a>
+                            <div class="contact-item">
+                                <div class="c-icon">📍</div>
+                                <div>
+                                    <strong data-i18n="contact_visit">Visit Us</strong>
+                                    <span data-i18n="contact_address">Hamlet Foundation HQ,
+                                        Peringamala,<br>Thiruvananthapuram, Kerala -
+                                        695563</span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="contact-form-wrapper fade-in-up delay-1">
+                        <form id="contactForm" class="contact-form">
+                            <div class="form-group">
+                                <label for="name" data-i18n="form_name">Full Name</label>
+                                <input type="text" id="name" required placeholder="John Doe"
+                                    data-i18n-ph="form_name_ph">
+                            </div>
+                            <div class="form-group">
+                                <label for="email" data-i18n="form_email">Email Address</label>
+                                <input type="email" id="email" required placeholder="john@example.com"
+                                    data-i18n-ph="form_email_ph">
+                            </div>
+                            <div class="form-group">
+                                <label for="subject" data-i18n="form_subject">I want to...</label>
+                                <select id="subject" required>
+                                    <option value="" disabled selected data-i18n="form_opt_def">Select an option
+                                    </option>
+                                    <option value="appointment" data-i18n="form_opt_0">Book an Appointment</option>
+                                    <option value="donate" data-i18n="form_opt_1">Make a Donation</option>
+                                    <option value="volunteer" data-i18n="form_opt_2">Volunteer my time</option>
+                                    <option value="partner" data-i18n="form_opt_3">Partner with you</option>
+                                    <option value="other" data-i18n="form_opt_4">Other inquiry (Mail)</option>
+                                </select>
+                            </div>
+                            <div class="form-group" id="datePickerGroup" style="display: none;">
+                                <label for="appointmentDate">Preferred Date</label>
+                                <input type="date" id="appointmentDate">
+                            </div>
+                            <div class="form-group">
+                                <label for="message" data-i18n="form_message">Message</label>
+                                <textarea id="message" rows="4" required placeholder="How can we help you?"
+                                    data-i18n-ph="form_message_ph"></textarea>
+                            </div>
+                            <button type="submit" class="btn btn-primary w-100" data-i18n="form_submit">Send
+                                Message</button>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer class="footer">
+        <div class="container footer-grid">
+            <div class="footer-brand">
+                <div class="logo">
+                    <img src="assets/logo-transparent.png" alt="Hamlet Foundation Logo" class="logo-img-footer">
+                    <span class="logo-text">Hamlet<span class="logo-accent">Foundation</span></span>
+                </div>
+                <p data-i18n="footer_desc">Empowering marginalized communities through grassroots interventions in
+                    education, health, and
+                    livelihood.</p>
+                <div class="social-links">
+                    <a href="#" aria-label="Facebook"><i class="fa-brands fa-facebook"></i></a>
+                    <a href="#" aria-label="Twitter"><i class="fa-brands fa-twitter"></i></a>
+                    <a href="https://www.instagram.com/hamlet_foundation?igsh=MTJ4bHVwbzVzbDdteg==" aria-label="Instagram"><i class="fa-brands fa-instagram"></i></a>
+                </div>
+            </div>
+
+            <div class="footer-links">
+                <h4 data-i18n="footer_links">Quick Links</h4>
+                <ul>
+                    <li><a href="#home" data-i18n="footer_home">Home</a></li>
+                    <li><a href="#about" data-i18n="footer_about">About Us</a></li>
+                    <li><a href="#pillars" data-i18n="footer_services">Our Services</a></li>
+                    <li><a href="#gallery" data-i18n="nav_gallery">Gallery</a></li>
+                    <li><a href="#impact" data-i18n="footer_impact">Impact</a></li>
+                </ul>
+            </div>
+
+            <div class="footer-newsletter">
+                <h4 data-i18n="footer_newsletter">Stay Updated</h4>
+                <p data-i18n="footer_nl_desc">Subscribe to our newsletter for impact reports and community updates.</p>
+                <form id="newsletterForm" class="newsletter-form">
+                    <input type="email" placeholder="Your email address" required data-i18n-ph="footer_nl_ph">
+                    <button type="submit" class="btn btn-primary" data-i18n="footer_nl_btn">Subscribe</button>
+                </form>
+            </div>
+        </div>
+        <div class="container footer-bottom">
+            <p>&copy; <span id="currentYear"></span> <span data-i18n="footer_rights">Hamlet Foundation. All rights
+                    reserved. | Peringamala, Kerala</span></p>
+        </div>
+    </footer>
+
+    <!-- Lightbox -->
+    <div id="lightbox" class="lightbox">
+        <span class="lightbox-close">&times;</span>
+        <div class="lightbox-nav lightbox-prev">&#10094;</div>
+        <img class="lightbox-content" id="lightbox-img">
+        <div class="lightbox-nav lightbox-next">&#10095;</div>
+    </div>
+
+    <!-- Scripts -->
+    <script src="translations.js"></script>
+    <script src="script.js"></script>
+</body>
+
+</html>
