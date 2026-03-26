@@ -21,6 +21,9 @@ document.addEventListener('DOMContentLoaded', () => {
 
     mobileMenuBtn.addEventListener('click', () => {
         nav.classList.toggle('active');
+        const header = document.querySelector('.header');
+        header.classList.toggle('menu-open', nav.classList.contains('active'));
+        
         // Toggle hamburger animation (optional, but good UX)
         const spans = mobileMenuBtn.querySelectorAll('span');
         if (nav.classList.contains('active')) {

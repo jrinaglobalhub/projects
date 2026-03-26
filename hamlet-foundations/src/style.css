@@ -1330,6 +1330,7 @@ a.contact-item:hover .c-icon {
         display: flex;
         flex-direction: column;
         gap: 1.25rem;
+        margin: 0 auto;
         margin-top: 2.5rem;
         width: 100%;
         align-items: center; /* Forces the items to lock into the exact center */
@@ -1347,6 +1348,7 @@ a.contact-item:hover .c-icon {
     .mobile-actions .btn {
         width: auto;
         min-width: 200px; /* Instead of full stretch, clamp to consistent neat size */
+        margin: 0 auto;
         justify-content: center;
         text-align: center;
     }
