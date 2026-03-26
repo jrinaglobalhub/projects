@@ -249,6 +249,8 @@ img {
     display: flex;
     align-items: center;
     gap: 0.5rem;
+    position: relative;
+    z-index: 10002;
 }
 
 .logo-img {
@@ -309,6 +311,8 @@ img {
     display: flex;
     align-items: center;
     gap: 1rem;
+    position: relative;
+    z-index: 10002;
 }
 
 .mobile-menu-btn {
